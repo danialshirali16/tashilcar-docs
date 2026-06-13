@@ -66,7 +66,9 @@ Structural depth, top-level only, batched by group. Template: `components/_TEMPL
 - **Phase 4b COMPLETE** — 33 top-level component docs written.
 
 ## Phase 6 — Living docs (written lazily, one per feature/component)
-- [ ] `specs/<feature>.md` — as needed
+- [x] `specs/_TEMPLATE.md`
+- [x] `specs/ad-review-and-approval.md` (Zhina, draft) — has open _(confirm)_ items for Product
+- [ ] more `specs/<feature>.md` — as needed (candidates: installment-calculator (Peykan), application-steps (TashilPay))
 
 ---
 

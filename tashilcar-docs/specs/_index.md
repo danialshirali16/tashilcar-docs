@@ -11,8 +11,9 @@ last_updated: 2026-06-11
 One file per feature, written as needed. Each spec is self-contained and names the product
 it belongs to.
 
-| Feature | Product | File |
-|---|---|---|
-| _(none yet)_ | | |
+| Feature | Product | Status | File |
+|---|---|---|---|
+| Ad Review & Approval | Zhina | draft | [ad-review-and-approval.md](ad-review-and-approval.md) |
 
-When adding a spec, also link it from the relevant product file and check it off in `ROADMAP.md`.
+Template: [_TEMPLATE.md](_TEMPLATE.md). When adding a spec, link it from the relevant product file
+and check it off in `ROADMAP.md`.

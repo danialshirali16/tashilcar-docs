@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__get_metadata",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__get_variable_defs",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__whoami",
+      "Bash(cd /Users/danial/Downloads/Tashilcar/tashilcar-docs/design-system && mkdir -p tokens-source && cp \"/Users/danial/Downloads/1. References Color.json\" \"/Users/danial/Downloads/2. Product Tokens.Zamyad.json\" \"/Users/danial/Downloads/2. Product Tokens.TashilPay.json\" \"/Users/danial/Downloads/2. Product Tokens.Zhina.json\" \"/Users/danial/Downloads/3. Typography.json\" \"/Users/danial/Downloads/4. Measurement.json\" tokens-source/ && ls -1 tokens-source/)",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__get_libraries",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__search_design_system",
+      "mcp__0f5a3e77-5c7d-46bc-b619-1ce0d8c4e1e1__read_file_content",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__use_figma",
+      "mcp__8810cd91-141c-41d2-9c80-3993e632901e__get_screenshot",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s -o wf.png \"https://www.figma.com/api/mcp/asset/ff883334-0e60-43df-a5a0-658d7a2e15eb\")",
+      "Bash(curl -s -o /tmp/sec.png \"https://www.figma.com/api/mcp/asset/a6c217a7-5b87-408e-8c89-637c9b32df1c\")",
+      "Bash(curl -s -o /tmp/a.png \"https://www.figma.com/api/mcp/asset/25cabf19-66c7-46e6-b88c-41fbb1ae647b\")",
+      "Bash(curl -s -o /tmp/all.png \"https://www.figma.com/api/mcp/asset/a8947fc9-c293-46ea-838a-a45bf1d5d997\")",
+      "Bash(curl -s -o /tmp/g.png \"https://www.figma.com/api/mcp/asset/9b90498b-a0b3-4964-a259-84528c3da526\")"
+    ]
+  }
+}

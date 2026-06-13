@@ -48,11 +48,16 @@ repayment period they qualify for — then start a purchase request.
 ## Product-specific rules
 
 ### Ad status
+Canonical lifecycle (source of truth: [specs/ad-review-and-approval.md](../specs/ad-review-and-approval.md)):
+`In Review · Active · Reserved · Sold · Ready for Sale · Settled · Inactive · Rejected`.
+
+Customer-facing visibility on Peykan:
 | Status | Meaning | Visible to customer? |
 |---|---|---|
-| **Enable** | Ad is available for purchase | Yes |
-| **Sold** | Ad has been sold; not available | Yes (shown as sold) |
-| **Disabled** | Ad disabled/unavailable for any reason | **No — hidden, never displayed** |
+| **Active** | available for purchase (was "Enable") | Yes |
+| **Sold** | sold; not available | Yes (shown as sold) |
+| **In Review / Rejected / Inactive** | not yet approved / rejected / disabled | **No — hidden** |
+| **Reserved / Ready for Sale / Settled** | mid-lifecycle states | _(confirm visibility per state)_ |
 
 ## Foundations & theme
 - Follows all [design foundations](../design-system/foundations.md): RTL, Persian, Yekan Bakh,

@@ -13,7 +13,7 @@ it belongs to.
 
 | Feature | Product | Status | File |
 |---|---|---|---|
-| Ad Review & Approval | Zhina | draft | [ad-review-and-approval.md](ad-review-and-approval.md) |
+| Ad Review & Approval | Zhina | groomed | [ad-review-and-approval.md](ad-review-and-approval.md) |
 
 Template: [_TEMPLATE.md](_TEMPLATE.md). When adding a spec, link it from the relevant product file
 and check it off in `ROADMAP.md`.

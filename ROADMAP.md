@@ -67,7 +67,7 @@ Structural depth, top-level only, batched by group. Template: `components/_TEMPL
 
 ## Phase 6 — Living docs (written lazily, one per feature/component)
 - [x] `specs/_TEMPLATE.md`
-- [x] `specs/ad-review-and-approval.md` (Zhina, draft) — has open _(confirm)_ items for Product
+- [x] `specs/zhina/ad-review-and-approval.md` (Zhina, draft) — has open _(confirm)_ items for Product
 - [ ] more `specs/<feature>.md` — as needed (candidates: installment-calculator (Peykan), application-steps (TashilPay))
 
 ---
@@ -86,10 +86,13 @@ keep them accurate**. Keep contributions in the house style: **small, single-top
 frontmatter**, cross-linked, no file depends on another to make sense.
 
 ## Where each team works (folders)
-- **Product** → `specs/` (feature specs) — exists.
-- **Back-End** → `data/` (entities, statuses, transitions, permissions) — scaffolded (`_index` + `_TEMPLATE`).
-- **Test** → `testing/` (scenarios / acceptance criteria) — scaffolded (`_index` + `_TEMPLATE`).
-- **Front-End** → `design-system/code-connect/` (Figma↔code mapping + component validation) — scaffolded (`_index`).
+Advanced structure scaffolded (routers + templates; fill lazily). Specs grouped by product; data by entity.
+- **Product** → `specs/<product>/` (feature specs), `analytics/`, `releases/`.
+- **Back-End** → `data/{entities,statuses,permissions}/` + `data/erd.md`, `api/`, `integrations/`, `security/`, `engineering/backend/`.
+- **Front-End** → `design-system/code-connect/`, `engineering/frontend/`.
+- **Test** → `testing/` (scenarios / acceptance criteria, QA).
+- **Shared** → `engineering/adr/` (decision records).
+- A feature is "done" when it cross-links `specs/` ↔ `data|api/` ↔ `code-connect/` ↔ `testing/`.
 
 ## How to contribute
 1. Branch from `main`; one topic per PR.

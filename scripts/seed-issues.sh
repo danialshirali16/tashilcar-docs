@@ -23,7 +23,7 @@ echo "Creating Product issues…"
 issue "Product: resolve open _(confirm)_ items" "product" \
 "Run \`grep -rn \"_(confirm\" .\` and replace each with the confirmed fact + source. Includes: glossary installment-plan fields, down payment, process terms; TashilPay Contract/Damages Persian terms."
 issue "Product: confirm Application & Contract status taxonomies" "product" \
-"Define the full status list + transitions for Application and Contract (Ad statuses already done in specs/ad-review-and-approval.md). Update glossary + relevant product docs."
+"Define the full status list + transitions for Application and Contract (Ad statuses already done in specs/zhina/ad-review-and-approval.md). Update glossary + relevant product docs."
 issue "Product: author/approve next feature specs" "product,spec" \
 "Drive each spec from a real requirement using specs/_TEMPLATE.md. Candidates: installment-calculator (Peykan), application-steps (TashilPay)."
 

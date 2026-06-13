@@ -37,14 +37,22 @@ Read this router, then open **only** the file(s) you need.
 | Find a component or its Figma node | [design-system/components/_index.md](design-system/components/_index.md) |
 | Use a product's custom components | [ui-kits/](ui-kits/) → product kit |
 | Follow the design process / handoff | [workflows/_index.md](workflows/_index.md) |
-| Read/write a feature spec | [specs/_index.md](specs/_index.md) |
-| Get the data model / entity statuses (Back-End) | [data/_index.md](data/_index.md) |
-| Find test scenarios / acceptance criteria (Test) | [testing/_index.md](testing/_index.md) |
+| Read/write a feature spec (by product) | [specs/_index.md](specs/_index.md) |
+| Get the data model / entities / statuses (Back-End) | [data/_index.md](data/_index.md) |
+| Read an API contract (Back-End) | [api/_index.md](api/_index.md) |
+| External services (payments, SMS, inspection) | [integrations/_index.md](integrations/_index.md) |
 | Map a component to code / validate it (Front-End) | [design-system/code-connect/_index.md](design-system/code-connect/_index.md) |
+| Architecture & decision records | [engineering/_index.md](engineering/_index.md) |
+| Find test scenarios / acceptance criteria (Test) | [testing/_index.md](testing/_index.md) |
+| Security / sensitive-data handling | [security/_index.md](security/_index.md) |
+| Analytics events & funnels | [analytics/_index.md](analytics/_index.md) |
+| Release change log | [releases/_index.md](releases/_index.md) |
 | Know how an agent should behave | [agents/_index.md](agents/_index.md) |
 
-> **By team:** Product → [specs/](specs/_index.md) · Back-End → [data/](data/_index.md) ·
-> Test → [testing/](testing/_index.md) · Front-End → [design-system/code-connect/](design-system/code-connect/_index.md).
+> **By team:** Product → [specs/](specs/_index.md), [analytics/](analytics/_index.md), [releases/](releases/_index.md) ·
+> Back-End → [data/](data/_index.md), [api/](api/_index.md), [integrations/](integrations/_index.md), [security/](security/_index.md) ·
+> Front-End → [design-system/code-connect/](design-system/code-connect/_index.md), [engineering/frontend/](engineering/frontend/_index.md) ·
+> Test → [testing/](testing/_index.md) · shared → [engineering/adr/](engineering/adr/_index.md).
 > See **Team Hand-off** in [ROADMAP.md](ROADMAP.md).
 
 ## The 4 products (quick reference)

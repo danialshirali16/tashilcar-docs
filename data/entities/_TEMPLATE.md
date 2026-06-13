@@ -5,7 +5,7 @@ read_when: "you need the <Entity> data model, statuses, or permissions"
 owner: backend
 metadata:
   type: reference
-related: [_index.md, ../company/glossary.md]
+related: [_index.md, ../../company/glossary.md]
 last_updated: 2026-06-13
 ---
 

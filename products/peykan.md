@@ -48,7 +48,7 @@ repayment period they qualify for — then start a purchase request.
 ## Product-specific rules
 
 ### Ad status
-Canonical lifecycle (source of truth: [specs/ad-review-and-approval.md](../specs/ad-review-and-approval.md)):
+Canonical lifecycle (source of truth: [specs/zhina/ad-review-and-approval.md](../specs/zhina/ad-review-and-approval.md)):
 `In Review · Active · Reserved · Sold · Ready for Sale · Settled · Inactive · Rejected`.
 
 **Peykan shows only `Active` and `Sold` Ads.** All other statuses are hidden from customers.

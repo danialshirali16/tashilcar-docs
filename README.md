@@ -38,7 +38,14 @@ Read this router, then open **only** the file(s) you need.
 | Use a product's custom components | [ui-kits/](ui-kits/) → product kit |
 | Follow the design process / handoff | [workflows/_index.md](workflows/_index.md) |
 | Read/write a feature spec | [specs/_index.md](specs/_index.md) |
+| Get the data model / entity statuses (Back-End) | [data/_index.md](data/_index.md) |
+| Find test scenarios / acceptance criteria (Test) | [testing/_index.md](testing/_index.md) |
+| Map a component to code / validate it (Front-End) | [design-system/code-connect/_index.md](design-system/code-connect/_index.md) |
 | Know how an agent should behave | [agents/_index.md](agents/_index.md) |
+
+> **By team:** Product → [specs/](specs/_index.md) · Back-End → [data/](data/_index.md) ·
+> Test → [testing/](testing/_index.md) · Front-End → [design-system/code-connect/](design-system/code-connect/_index.md).
+> See **Team Hand-off** in [ROADMAP.md](ROADMAP.md).
 
 ## The 4 products (quick reference)
 

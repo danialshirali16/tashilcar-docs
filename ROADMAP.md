@@ -85,6 +85,12 @@ The core docs (Phases 1–6) are written by Design. This section is for **other 
 keep them accurate**. Keep contributions in the house style: **small, single-topic files with
 frontmatter**, cross-linked, no file depends on another to make sense.
 
+## Where each team works (folders)
+- **Product** → `specs/` (feature specs) — exists.
+- **Back-End** → `data/` (entities, statuses, transitions, permissions) — scaffolded (`_index` + `_TEMPLATE`).
+- **Test** → `testing/` (scenarios / acceptance criteria) — scaffolded (`_index` + `_TEMPLATE`).
+- **Front-End** → `design-system/code-connect/` (Figma↔code mapping + component validation) — scaffolded (`_index`).
+
 ## How to contribute
 1. Branch from `main`; one topic per PR.
 2. Follow the existing templates: `specs/_TEMPLATE.md`, `design-system/components/_TEMPLATE.md`.

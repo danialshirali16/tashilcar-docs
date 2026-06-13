@@ -47,4 +47,4 @@ Read this router, then open **only** the file(s) you need.
 
 ## Project status
 
-See [ROADMAP.md](../ROADMAP.md) for what's written and what's pending.
+See [ROADMAP.md](ROADMAP.md) for what's written and what's pending.

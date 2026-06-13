@@ -1,7 +1,7 @@
 # Tashilcar Docs — Build Roadmap & Progress
 
 Living checklist for building the agent documentation. Check off files as they land.
-On a new session: read `tashilcar-docs/README.md` + this file to know where we stopped.
+On a new session: read `README.md` (repo root) + this file to know where we stopped.
 
 **Principle:** small, single-topic files (~50–150 lines), each with frontmatter, no file
 depends on another to make sense.
@@ -9,7 +9,7 @@ depends on another to make sense.
 ---
 
 ## Phase 1 — Skeleton (router + stubs)
-- [x] `tashilcar-docs/README.md` (router)
+- [x] `README.md` (router)
 - [x] `ROADMAP.md` (this file)
 - [x] `products/_index.md`
 - [x] `design-system/components/_index.md`

@@ -48,3 +48,6 @@ Read this router, then open **only** the file(s) you need.
 ## Project status
 
 See [ROADMAP.md](ROADMAP.md) for what's written and what's pending.
+
+**Contributing (other teams):** see the **Team Hand-off** section at the bottom of
+[ROADMAP.md](ROADMAP.md) for what Product / Front-End / Back-End / Test each own to complete the docs.

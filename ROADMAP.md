@@ -77,4 +77,53 @@ Structural depth, top-level only, batched by group. Template: `components/_TEMPL
 - Spelling confirmed: **Zamyad**, **TashilPay**. Font: **Yekan Bakh**. Rial symbol: **﷼**.
 - Components written lazily to keep token cost low (catalog maps name → Figma node).
 
-_Last updated: 2026-06-11_
+---
+
+# Team Hand-off — Completing the Docs
+
+The core docs (Phases 1–6) are written by Design. This section is for **other teams to extend and
+keep them accurate**. Keep contributions in the house style: **small, single-topic files with
+frontmatter**, cross-linked, no file depends on another to make sense.
+
+## How to contribute
+1. Branch from `main`; one topic per PR.
+2. Follow the existing templates: `specs/_TEMPLATE.md`, `design-system/components/_TEMPLATE.md`.
+3. When you resolve a `_(confirm)_` item, replace it with the confirmed fact and link a source.
+4. Update the relevant `_index.md` and check the box here.
+5. Keep Persian/RTL/﷼/Jalali rules intact (see `design-system/foundations.md`).
+
+## 🟦 Product team
+- [ ] Resolve open `_(confirm)_` items (run `grep -rn "_(confirm" .`): glossary installment-plan
+      fields, down payment, process terms; TashilPay Contract/Damages Persian terms.
+- [ ] Author/approve **feature specs** in `specs/` (one per feature) — drive each from a real requirement.
+- [ ] Keep `company/glossary.md` canonical (it's the source of truth for domain terms & statuses).
+- [ ] Confirm status taxonomies & lifecycle (Ad statuses done; do Application & Contract next).
+
+## 🟩 Front-End team (2)
+- [ ] Validate `design-system/components/*` against the real Swiss Army code (props, variants, states).
+- [ ] Add **Code Connect** mappings (Figma component → code) — see `agents/skills/figma/figma-code-connect`.
+- [ ] Confirm the Swiss Army ↔ **MUI** mapping per component (which MUI base, what's customized).
+- [ ] Resolve the "not found via search" list in `components/_index.md` (Table, Card, Tag, Avatar,
+      Alert, Breadcrumb, Accordion, Drawer, Snackbar, Divider, Slider) — real name or genuinely absent?
+- [ ] Note any component whose code has diverged from Figma.
+
+## 🟧 Back-End team (4)
+- [ ] Document **entities & relationships** behind the flows (Ad → Deal → Application → Contract):
+      key fields, statuses, and transitions. Add a `specs/` or `company/` data note per entity.
+- [ ] Confirm **status taxonomies** end-to-end (e.g. the 8 Ad statuses) and who can transition them.
+- [ ] Document **permission/role** rules referenced in product docs (e.g. Zhina ad-review role,
+      Zamyad sales-model access) — what each role can do.
+- [ ] Capture business rules behind calculators/financing (installment calc, Tashim code, damages).
+
+## 🟪 Test team (1)
+- [ ] Turn each `specs/*` into **test scenarios / acceptance criteria** (happy path + edge cases +
+      domain states: rejected step, cancelled application, each Ad status).
+- [ ] Document the **QA / Testing process** as a workflow doc (`workflows/`), aligned with the
+      Testing sub-task + Review meeting in `workflows/design-process.md`.
+- [ ] Maintain a per-feature **definition of done** checklist (extends `workflows/review-and-qa.md`).
+
+## Shared / cross-team
+- [ ] Each finalized feature gets: a Product spec, FE component validation, BE data/rules note, and
+      Test scenarios — linked from the feature's `specs/*.md`.
+
+_Last updated: 2026-06-13_

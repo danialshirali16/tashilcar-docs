@@ -51,13 +51,14 @@ repayment period they qualify for — then start a purchase request.
 Canonical lifecycle (source of truth: [specs/ad-review-and-approval.md](../specs/ad-review-and-approval.md)):
 `In Review · Active · Reserved · Sold · Ready for Sale · Settled · Inactive · Rejected`.
 
-Customer-facing visibility on Peykan:
-| Status | Meaning | Visible to customer? |
-|---|---|---|
-| **Active** | available for purchase (was "Enable") | Yes |
-| **Sold** | sold; not available | Yes (shown as sold) |
-| **In Review / Rejected / Inactive** | not yet approved / rejected / disabled | **No — hidden** |
-| **Reserved / Ready for Sale / Settled** | mid-lifecycle states | _(confirm visibility per state)_ |
+**Peykan shows only `Active` and `Sold` Ads.** All other statuses are hidden from customers.
+(The full lifecycle is visible only internally in [Zamyad](zamyad.md) (dealer) and [Zhina](zhina.md) (admin).)
+
+| Status | Visible on Peykan? |
+|---|---|
+| **Active** | Yes — available for purchase |
+| **Sold** | Yes — shown as sold |
+| In Review · Reserved · Ready for Sale · Settled · Inactive · Rejected | No — hidden |
 
 ## Foundations & theme
 - Follows all [design foundations](../design-system/foundations.md): RTL, Persian, Yekan Bakh,

@@ -7,6 +7,8 @@ last_updated: 2026-06-11
 
 # Tashilcar Docs — Start Here
 
+![Tashilcar (تسهیل کار)](assets/cover.png)
+
 This is documentation for **AI agents** that help with **Product Design** at Tashilcar
 (a car-financing-with-loan company). Files are intentionally **small and single-topic**.
 Read this router, then open **only** the file(s) you need.

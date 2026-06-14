@@ -12,6 +12,8 @@ Definitions for the **AI sub-agents** that help with Tashilcar product design, p
 procedures they share. Multiple focused agents are planned — each gets its own file here once
 defined (scope, when to use, which docs it reads, how it behaves).
 
+> **Read the [rules/](rules/_index.md) first** — shared rules that apply to every agent on every task.
+
 | Agent | Scope | Connected skills | File |
 |---|---|---|---|
 | UX Researcher | user research, benchmark, accessibility analysis | user-research, research-synthesis, accessibility-review | [ux-researcher.md](ux-researcher.md) |

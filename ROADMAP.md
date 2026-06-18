@@ -89,10 +89,10 @@ frontmatter**, cross-linked, no file depends on another to make sense.
 Advanced structure scaffolded (routers + templates; fill lazily). Specs grouped by product; data by entity.
 - **Product** → `specs/<product>/` (feature specs), `analytics/`, `releases/`.
 - **Back-End** → `data/{entities,statuses,permissions}/` + `data/erd.md`, `api/`, `integrations/`, `security/`, `engineering/backend/`.
-- **Front-End** → `design-system/code-connect/`, `engineering/frontend/`.
+- **Front-End** → `design-system/components/` (validate vs. the TashilUI repo), `engineering/frontend/`.
 - **Test** → `testing/` (scenarios / acceptance criteria, QA).
 - **Shared** → `engineering/adr/` (decision records).
-- A feature is "done" when it cross-links `specs/` ↔ `data|api/` ↔ `code-connect/` ↔ `testing/`.
+- A feature is "done" when it cross-links `specs/` ↔ `data|api/` ↔ `testing/`.
 
 ## How to contribute
 1. Branch from `main`; one topic per PR.
@@ -110,7 +110,6 @@ Advanced structure scaffolded (routers + templates; fill lazily). Specs grouped 
 
 ## 🟩 Front-End team (2)
 - [ ] Validate `design-system/components/*` against the real Swiss Army code (props, variants, states).
-- [ ] Add **Code Connect** mappings (Figma component → code) — see `agents/skills/figma/figma-code-connect`.
 - [ ] Confirm the Swiss Army ↔ **MUI** mapping per component (which MUI base, what's customized).
 - [ ] Resolve the "not found via search" list in `components/_index.md` (Table, Card, Tag, Avatar,
       Alert, Breadcrumb, Accordion, Drawer, Snackbar, Divider, Slider) — real name or genuinely absent?

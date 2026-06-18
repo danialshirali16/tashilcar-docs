@@ -31,7 +31,7 @@ cheap to read.
 See the **Team Hand-off** section at the bottom of [`ROADMAP.md`](ROADMAP.md) for the
 Product / Front-End / Back-End / Test checklists. In short:
 - **Product** — specs, glossary, `_(confirm)_` items, status taxonomies.
-- **Front-End** — validate component docs vs. code, Code Connect, Swiss Army↔MUI mapping.
+- **Front-End** — validate component docs vs. code, Swiss Army↔MUI mapping.
 - **Back-End** — entities/relationships, status transitions, permissions, financing rules.
 - **Test** — test scenarios/acceptance criteria, QA process, definition of done.
 

@@ -1,0 +1,24 @@
+name: Token drift check
+
+# TashilUI (the design-token source of truth) must not drift from this docs repo.
+# Fails if design-system/tokens-source/ is behind TashilUI's tokens/. Runs on
+# every push/PR, daily (to catch upstream changes landed elsewhere), and on demand.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check tokens-source is in sync with TashilUI
+        run: node scripts/check-token-drift.mjs

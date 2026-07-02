@@ -2,7 +2,7 @@
 title: Design Tokens — Overview
 audience: design-agent
 read_when: "you need to understand how Swiss Army tokens are structured, or which token layer to read"
-related: [tokens-color.md, tokens-typography.md, tokens-measurement.md, foundations.md, overview.md]
+related: [tokens-handoff.md, typography-handoff.md, tokens-color.md, tokens-typography.md, tokens-measurement.md, foundations.md, overview.md]
 last_updated: 2026-06-12
 ---
 
@@ -27,6 +27,9 @@ References (primitives)  →  Product Tokens (semantic)  →  used in components
    to a different color per product. Source: `2. Product Tokens.<Product>.json`.
 3. **Typography & Measurement** — shared across products.
    Files: [tokens-typography.md](tokens-typography.md), [tokens-measurement.md](tokens-measurement.md).
+
+For developer-ready handoff, see [tokens-handoff.md](tokens-handoff.md) and
+[typography-handoff.md](typography-handoff.md).
 
 ## Naming convention
 - Slash-namespaced, lowercase semantic: `group/role/state` — e.g. `text/primary/hover`,

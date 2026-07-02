@@ -2,7 +2,7 @@
 title: Swiss Army — Design System Overview
 audience: design-agent
 read_when: "you need to understand what Swiss Army is and how it's organized"
-related: [tokens.md, foundations.md, principles.md, figma.md, components/_index.md]
+related: [tokens.md, tokens-handoff.md, typography-handoff.md, foundations.md, principles.md, figma.md, components/_index.md]
 last_updated: 2026-06-12
 ---
 
@@ -15,7 +15,9 @@ four products, **per-product color themes** via tokens.
 ## How it's layered
 1. **Foundations** — universal rules: [foundations.md](foundations.md) (RTL, Persian, Yekan Bakh,
    numerals, ﷼, Jalali) and [principles.md](principles.md) (transparency, simplicity, tokenized).
-2. **Tokens** — [tokens.md](tokens.md) + color / typography / measurement detail files.
+2. **Tokens** — [tokens.md](tokens.md) + color / typography / measurement detail files and
+   developer handoff docs ([tokens-handoff.md](tokens-handoff.md),
+   [typography-handoff.md](typography-handoff.md)).
    This is what makes one system serve four products.
 3. **Swiss Army components** — complex base components built on MUI.
    Catalog: [components/_index.md](components/_index.md). (Heavy/token-costly — documented lazily.)
